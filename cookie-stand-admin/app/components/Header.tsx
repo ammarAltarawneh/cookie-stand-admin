@@ -1,7 +1,19 @@
-export default function Header(){
-    return (
-        <div className="bg-emerald-600 h-16 py-2 px-4 flex justify-between items-center top-4">
-          <h2 className="text-white text-xl font-semibold">Cookie Stand Admin</h2>
-        </div>
-      );
-}
+import React from 'react';
+import Link from 'next/link';
+
+const Header = () => {
+  return (
+    <header className="py-4 bg-green-400">
+      <div className="container flex items-center justify-between mx-auto">
+        <h1 className="text-2xl font-bold text-stone-600">Cookie Stand Admin</h1>
+        <nav className="space-x-4">
+          <Link href="/overview" className="text-stone-600 hover:text-stone-800">
+            Overview
+          </Link>
+        </nav>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
