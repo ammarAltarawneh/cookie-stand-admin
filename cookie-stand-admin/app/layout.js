@@ -1,7 +1,7 @@
 import './globals.css'
 
 
-import Ind from '../app/pages/Index';
+import Ind from './pages/Index';
 
 import { Inter } from 'next/font/google'
 

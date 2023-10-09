@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/CookieStandAdmin.tsx", "app/components/CreateForm.tsx", "app/components/Footer.tsx", "app/components/Header.tsx", "app/components/Main.tsx", "app/components/ReportTable.tsx", "app/page.tsx", "app/pages/Index.tsx", "app/pages/overview.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/CookieStandAdmin.js", "app/components/CreateForm.js", "app/components/Footer.js", "app/components/Header.js", "app/components/Main.js", "app/components/ReportTable.js", "app/page.js", "app/pages/Index.js", "app/pages/overview.js", "app/data.js", "app/layout.js"],
   "exclude": ["node_modules"]
 }
